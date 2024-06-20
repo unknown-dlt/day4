@@ -1,0 +1,690 @@
+.bbb.zzz {
+	color: red;
+}
+
+h2.bbb.zzz {
+	color: red;
+}
+#elem.bbb {
+	color: red;
+}
+#elem.bbb.zzz {
+	color: red;
+}
+
+h2#elem.bbb {
+	color: red;
+}
+h2 .zzz {
+	color: red;
+}
+#block, h1, h2 {
+    text-align: center;
+}
+
+
+#block, h1, h2 {
+	text-align: center;
+    font-size: ;
+}
+h2.zzz {
+	color: red;
+}
+
+h2 .zzz {
+	color: red;
+}
+
+.bbb.zzz {
+	color: red;
+}
+
+.bbb .zzz {
+	color: red;
+}
+
+.bbb.zzz.xxx {
+	color: red;
+}
+
+.bbb .zzz.xxx {
+	color: red;
+}
+
+.bbb.zzz .xxx {
+	color: red;
+}
+
+.bbb .zzz .xxx {
+	color: red;
+}
+
+#elem.bbb {
+	color: red;
+}
+
+#elem .bbb {
+	color: red;
+}
+
+/*70 упрощение кода
+
+#block h1, #block h2 {
+	text-align: center;
+}
+
+#block h1, #block h2 {
+	text-align: center;
+	font-size: 30px;
+  }
+
+  ///71
+!1
+  #block h1, #block h2, #block h3 {
+	text-align: center;
+	font-size: 16px;
+}
+#block h2 {
+	color: blue;
+}
+#block h3 {
+	color: red;
+}
+
+!2
+#block h1.eee, #block h2.zzz {
+	text-align: center;
+}
+	#block h1.eee {
+	font-size: 30px;
+}
+#block h2.zzz {
+	font-size: 20px;
+}
+
+!3
+.xxx .kkk, .eee h2.zzz, #eee h2 {
+	text-align: center;
+}
+
+!4
+.eee h2.zzz, .xxx {
+	text-align: center;
+}
+
+72
+
+div p {
+	color:aquamarine;
+  }
+
+div h2 {
+	color:blueviolet;
+  }
+  
+#block p {
+	color:blue;
+  }
+
+  #block h2 {
+	color:chartreuse;
+  }
+
+.bbb {
+	color:rgb(216, 117, 36)
+}
+
+#block .bbb {
+	color:crimson;
+}
+
+.bbb p {
+	color:bisque;
+}
+
+.bbb h2 {
+	color:azure;
+}
+
+#block .bbb p {
+	color:coral;
+}
+
+.bbb, .xxx {
+	color:cadetblue;
+}
+
+.bbb p, .xxx h2 {
+	color: gold;
+}
+
+#block p.bbb, #block p.xxx {
+	color:darkslateblue;
+}
+
+.fff {
+	color:forestgreen;
+}
+
+.fff p {
+	color:deeppink;
+}
+
+#block p.fff {
+	color:darkolivegreen;
+}
+
+.fff .bbb {
+	color:indigo;
+}
+
+.fff h2.bbb {
+	color:aliceblue;
+}
+*/
+
+/*73 абзацам задается 20,
+ а потом 30.
+ Вторая запись переопределит первую
+ и абзацы станут 30px.
+
+ 74 - h2 размер 20 пикселей, стиль италик,цвет красный.
+
+ 77 */
+
+ #elem + li {
+	color:aquamarine;
+  }
+
+.elem + li {
+	color:brown;
+  }
+/*78*/
+  #elem ~ li {
+	color:cornflowerblue;
+  }
+/*79*/
+  main > * > p {
+	color:coral;
+  }
+
+  /*80
+
+  title {
+	color:chartreuse;
+  }
+
+p, title {
+	color:cyanp;
+}
+
+p, title="hello" {
+	color:red;
+  }
+
+  a, href="http://" {
+	color:blue;
+  }
+
+  ahref=".html" {
+	color:yellow;
+  }
+
+  p, title="hello" {
+	color:violet;
+  }
+
+  p, class="top-" {
+	color:darkgoldenrod
+  }
+
+  */
+
+/*82
+
+a:link {
+	color:blue;
+}
+a:hover.link {
+	color:red;
+	text-decoration: none;
+}
+a:active {
+	color:black;
+}
+a:visited {
+	color:green;
+	}
+	
+84
+
+a:link, a:active, a:visited{
+	color:blue;
+	text-decoration: none;
+}
+a:hover.link {
+	color:red;
+}
+*/
+
+/*85
+
+a {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+}
+	
+
+/*86*/
+
+a.zzz {
+	color: red;
+}
+a.zzz:hover {
+	text-decoration: none;
+}
+
+#block a.zzz {
+	color: red;
+}
+#block a.zzz:hover {
+	text-decoration: none;
+}
+
+.ammeac a.zzz {
+	color: red;
+}
+.ammeac a.zzz:hover {
+	text-decoration: none;
+}
+
+/*88*/
+
+p:first-of-type {
+	color: red;
+}
+
+h2:nth-of-type(odd) {
+	color: red;
+}
+
+div {
+	border: 1px dashed black;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+h2:only-of-type {
+	color: red;
+}
+
+/*89*/
+
+.elem {
+	color:blueviolet;
+}
+
+#elem {
+	color:chocolate;
+}
+
+.elem {
+	color:hotpink;
+}
+/*90*/
+#elem {
+	width: 300px;
+	height: 100px;
+	color: white;
+	background-color: orange;*
+}
+
+
+#elem {
+	border-width: 3px;   
+	border-style: solid;  
+	border-color: red;   
+	width: 300px;
+	height: 100px;
+}
+
+
+#elem {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 300px;
+	height: 100px;
+}
+
+
+#elem {
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black;
+	width: 300px;
+	height: 100px;
+}
+
+
+#elem {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: black;
+	width: 300px;
+	height: 100px;
+}
+
+#elem {
+	border-width: 3px;
+	border-style: ridge;
+	border-color: black;
+	width: 300px;
+	height: 100px;
+}
+
+#elem {
+	border-width: 5px;
+	border-style: double;
+	border-color: black;
+	width: 300px;
+	height: 100px;
+}
+
+#elem {
+	border: 1px solid red;
+	width: 300px;
+	height: 100px;
+}
+
+#elem {
+	width: 300px;
+	height: 100px;
+	border-left: 1px solid red;
+}
+право и лево
+#elem {
+	width: 300px;
+	height: 100px;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#elem {
+	width: 300px;
+	height: 100px;
+	border-left: 1px solid yellow;
+	border-right: 1px solid green;
+	border-bottom: 1px solid red;
+	border-top: 1px solid blue;
+}
+
+
+#elem {
+	width: 300px;
+	height: 100px;
+	border: 1px solid red;
+	border-radius: 10px;
+}
+
+
+#elem {
+	border-radius: 20px;
+	width: 300px;
+	height: 100px;
+	background-color: #e4f1ed;
+}
+
+#elem {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 1px solid green;
+}
+
+
+
+#elem {
+	width: 300px;
+	height: 100px;
+	border: 1px solid red;
+	border-radius: 10px 20px 30px 40px;
+}
+
+#elem {
+	width: 300px;
+	height: 100px;
+	border: 1px solid red;
+	border-radius: 10px 40px;
+}
+
+#elem {
+	width: 300px;
+	height: 100px;
+	border: 1px solid red;
+	border-radius: 10px 20px 30px;
+}
+
+
+#elem {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	border-radius: 10%;
+}
+
+
+#elem {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	border-radius: 50%;
+}
+
+
+
+#elem {
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+	border: 3px solid black;
+}
+
+
+#elem {
+	background-repeat: no-repeat;
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+
+#elem {
+	background-repeat: no-repeat;
+	background-image: url("bg.png");
+	width: 300px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+
+
+ul {
+	list-style-type: square;
+}
+
+
+
+ul {
+	list-style-type: circle;
+}
+
+
+ul {
+	list-style-type: disc;
+}
+
+
+ul {
+	list-style-type: none;
+}
+*/
+
+ol {
+	list-style-type: lower-roman;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+ol {
+	list-style-type: lower-alpha;
+}
+
+ol {
+	list-style-type: upper-alpha;
+}
+
+ol {
+	list-style-type: lower-greek;
+}
+
+ol {
+	list-style-type: decimal-leading-zero;
+}
+	*/
+
+	#parent {
+		width: 300px;
+		border: 1px solid red;
+	}
+	#child {
+		height: 100px;
+		border: 1px solid green;
+	}
+
+
+#parent {
+	width: 300px;
+	border: 1px solid red;
+}
+#child {
+	margin-top:    10px;   
+	margin-right:  20px;   
+	margin-bottom: 30px;   
+	margin-left:   40px;   
+	
+	height: 100px;
+	border: 1px solid green;
+}
+*/
+
+
+
+#parent {
+	width: 300px;
+	border: 1px solid red;
+}
+#child {
+	height: 100px;
+	border: 1px solid green;
+	margin: 10px 20px 30px 40px;
+}
+	*/
+
+	
+
+	#parent {
+		width: 300px;
+		border: 1px solid red;
+	}
+	
+	#child {
+		height: 100px;
+		border: 1px solid green;
+		margin: 40px 20px;
+	}
+
+
+#parent {
+	width: 300px;
+	border: 1px solid red;
+}
+
+#child {
+	height: 100px;
+	border: 1px solid green;
+	margin: 10px 20px 30px;
+}
+
+#elem {
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+ #elem {
+	padding: 30px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+} 
+
+
+#elem {
+	padding-top:    10px;  
+	padding-right:  20px;   
+	padding-bottom: 30px;   
+	padding-left:   40px;   
+	
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+#elem2 {
+	padding: 25px;  
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+}
+
+
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+#elem2 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	border: 10px solid green; 
+}
+
+
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+#elem2 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	padding: 25px; 
+	border: 10px solid green;
+}
